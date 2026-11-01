@@ -77,7 +77,7 @@ $("blowCandle").addEventListener("click", () => {
 // Tombol kejutan dan hati.
 $("surpriseBtn").addEventListener("click", () => {
   makeHearts(32);
-  showToast("Makasih ya udah hadir di hidupku. Aku sayang kamu! ♡");
+  showToast("Makasih ya sayang udah hadir di hidupku. Aku sayang kamu! ♡");
 });
 $("heartBtn").addEventListener("click", () => {
   makeHearts(45);
