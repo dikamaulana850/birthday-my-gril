@@ -1,5 +1,5 @@
 // Website ulang tahun Nuvita Khairunisa ♡
-const birthday = new Date(2026, 11, 20, 0, 0, 0); // Bulan 10 = November
+const birthday = new Date(2026, 10, 20, 0, 0, 0); // Bulan 10 = November
 const $ = (id) => document.getElementById(id);
 
 function updateCountdown() {
@@ -11,7 +11,7 @@ function updateCountdown() {
     $("minutes").textContent = "♡";
     $("seconds").textContent = "♡";
     $("countdownNote").textContent = now.toDateString() === birthday.toDateString()
-      ? "Hari ini hari spesialmu! Selamat ulang tahun, Nuvita! 🎂"
+      ? "Hari ini hari spesialmu! Selamat ulang tahun, Sayang! 🎂"
       : "Semoga ulang tahunmu penuh kebahagiaan ♡";
     return;
   }
@@ -77,7 +77,7 @@ $("blowCandle").addEventListener("click", () => {
 // Tombol kejutan dan hati.
 $("surpriseBtn").addEventListener("click", () => {
   makeHearts(32);
-  showToast("Kejutan kecil untuk Nuvita: kamu berharga dan disayang! ♡");
+  showToast("Makasih ya sayang udah hadir di hidupku. Aku sayang kamu! ♡");
 });
 $("heartBtn").addEventListener("click", () => {
   makeHearts(45);
